@@ -18,9 +18,9 @@ const Contact = () => {
                    
                     <Icon.Headphones className="text-danger h1"/>
                     <h6 className="fw-bold pb-3 ">Contact With Phone Number</h6>
-                    <span className=" contact-number-style">+057 254 365 456</span>
+                    <span className=" contact-number-style">+880 1729 235 017</span>
                     <br/>
-                    <span className=" contact-number-style">+856 325 652 984</span>
+                    <span className=" contact-number-style">+880 1932 590 638</span>
 
                 </div>
 
@@ -29,9 +29,9 @@ const Contact = () => {
             <div className="bg-white p-lg-5 p-md-2 p-sm-1 p-1  rounded-3">
                   <Icon.Mail className="text-danger h1"/>   
                     <h6 className="fw-bold pb-3">Email Address</h6>
-                    <span className=" contact-number-style">admin@gmail.com</span>
+                    <span className=" contact-number-style">admin@ksc.com</span>
                     <br/>
-                    <span className=" contact-number-style">example@gmail.com</span>
+                    <span className=" contact-number-style">example@ksc.com</span>
 
                 </div>
 
