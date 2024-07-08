@@ -7,6 +7,7 @@ import { faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons'
 import { faCoins } from '@fortawesome/free-solid-svg-icons'
 import { faStarAndCrescent } from '@fortawesome/free-solid-svg-icons'
 import bit from '../../Assets/Images/bit.png'
+import "../../CSS/fotter.css";
 
 const element = <FontAwesomeIcon icon={faSignIn} />
 const element1 = <FontAwesomeIcon icon={faHandHoldingDollar} />
@@ -17,13 +18,9 @@ const Footer = () => {
     return (
         <div className='py-5 '>
             <div className='row pb-2 '>
-                <div className='col-lg-6 col-md-12 col-sm-12 text-center position-style
-                 container'>
+                <div className='col-lg-6 col-md-12 col-sm-12 text-center position-style container'>
                     <div className='left-footer-style rounded-3 '>
-                       
-                       
                         <img src={bit} alt='bg-img' className='w-100'/>
-                 
                     </div>
                     <div className='left-footer-relative'>
                         <p>READY TO DO THIS</p>
@@ -43,14 +40,14 @@ const Footer = () => {
                             <div className='col'>
                                 <h3 className='text-secondary pb-4'>Quick Links</h3>
                                 
-                                <Link to='/work' className='linkStyle'>
-                                <p className='text-secondary h5 pb-2 footer-link-style' >Work</p>
+                                <Link to='/' className='linkStyle'>
+                                <p className='text-secondary h5 pb-2 footer-link-style' >Home</p>
                                 </Link>
-                                <Link to='sayHelloAbout' className='linkStyle'>
+                                <Link to='/About' className='linkStyle'>
                                 <p  className='text-secondary h5 pb-2 footer-link-style '>About</p>
                                 </Link>
-                                <Link to='/talk' className='linkStyle'>
-                                <p  className='text-secondary h5 footer-link-style '>Let's Talk</p>
+                                <Link to='/services' className='linkStyle'>
+                                <p  className='text-secondary h5 footer-link-style '>Services</p>
                                 </Link>
 
                             </div>

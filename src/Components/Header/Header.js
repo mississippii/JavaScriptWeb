@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo from '../../Assets/Images/logo.png'
+import logo from '../../Assets/Images/logo.png';
+import "../../CSS/header.css";
 
 const Header = () => {
     return (
@@ -18,15 +19,11 @@ const Header = () => {
       <Navbar.Toggle className='bg-white'/>
       <Navbar.Collapse>
           <Nav className="ms-auto ms-style">
-            <Nav.Link as={Link} className="text-white link_style" to='/'>Home</Nav.Link>
-            <Nav.Link as={Link} className="text-white" to='/services'>Service</Nav.Link>
-            <Nav.Link as={Link} className="text-white" to='/about'>About</Nav.Link>
-           <Nav.Link as={Link} className="text-white" to='/blog'>Blog</Nav.Link>
-           
-            
+            <Nav.Link as={Link} className="text-white link_style hover1" to='/'>Home</Nav.Link>
+            <Nav.Link as={Link} className="text-white hover2" to='/services'>Service</Nav.Link>
+            <Nav.Link as={Link} className="text-white hover3" to='/about'>About</Nav.Link>
+            <Nav.Link as={Link} className="text-white hover4" to='/blog'>Blog</Nav.Link>
           </Nav>
-          </Navbar.Collapse>
-          <Navbar.Collapse>
           <Nav className="ms-auto">
           <Nav.Link as={Link} to='/contact'>
               <button className="btn btn-outline-warning text-danger px-3 fw-bold
@@ -36,7 +33,6 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-            
         </div>
     );
 };

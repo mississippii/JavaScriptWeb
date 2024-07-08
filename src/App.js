@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="full-bg-style pt-2">
       <AppRoutes/>
-     
     </div>
   );
 }
