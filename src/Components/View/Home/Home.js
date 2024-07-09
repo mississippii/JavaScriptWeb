@@ -172,8 +172,7 @@ const Home = () => {
 
            <div className='bg-white py-5'>
                <div className='container pb-5'>
-
-               
+               <h1 className='text-center text-Black'>Our Partner</h1>               
                <div className='partners-list container py-4'>
                    <img src={partner1} alt='partner' className='img-fluid' />
                    <img src={partner2} alt='partner'  className='img-fluid' />
@@ -192,16 +191,10 @@ const Home = () => {
                        <img src={partner9} alt='partner'  className='img-fluid' />
 
                    </div>
-
                    </div>
-                  
                </div>
                </div>
-
            </div>
-
-
-            
         </div>
     );
 };
