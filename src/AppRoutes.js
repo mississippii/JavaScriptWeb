@@ -11,8 +11,7 @@ import Career from './Components/View/BlogDetails/BlogDetails';
 import Contact from './Components/View/Contact/Contact';
 import Home from './Components/View/Home/Home';
 import Services from './Components/View/Services/Services';
-import Footer1 from './Components/View/under';
-import Footer from './Components/Footer/Footer'; // Uncommented and corrected import for Footer
+import Footer from './Components/Footer/Footer';
 
 const AppRoutes = () => {
     return (
@@ -24,8 +23,8 @@ const AppRoutes = () => {
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/services' element={<Services />} />
                 <Route path='/blog' element={<Blog />} />
-                <Route path='/blogDetails' element={<Career />} />
-                <Route path='/footer1' element={<Footer1 />} />
+                <Route path='/career' element={<Career />} />
+                {/* <Route path='/footer1' element={<Footer1 />} /> */}
             </Routes>
             <Footer />
         </BrowserRouter>
