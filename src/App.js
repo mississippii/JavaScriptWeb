@@ -1,3 +1,4 @@
+import React from 'react';
 import AppRoutes from "./AppRoutes";
 import './CSS/home.css'
 

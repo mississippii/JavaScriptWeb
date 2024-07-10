@@ -25,8 +25,8 @@ function under() {
                 <div className='sb_footer_links_div'>
                     <h4>Comming soon on</h4>
                     <div className='social_media'>
-                        <p><image src ={fb}/></p>
-                        <p> <img src={twitter}/></p>
+                        <p><image src ={fb} alt=""/></p>
+                        <p> <img src={twitter} alt=""/></p>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import * as Icon from "react-feather";
 import bgImage from "../../../Assets/Images/blogs1.jpg";
 import blogsingle from "../../../Assets/Images/blogsingle.png";
 
-const BlogDetails = () => {
+const Career = () => {
   return (
     <div className="pb-5 bg-white">
       <div className=" pb-5 bg-white">
@@ -237,4 +237,4 @@ const BlogDetails = () => {
   );
 };
 
-export default BlogDetails;
+export default Career;
