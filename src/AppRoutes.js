@@ -12,7 +12,7 @@ import BlogDetails from './Components/View/BlogDetails/BlogDetails';
 import Contact from './Components/View/Contact/Contact';
 import Home from './Components/View/Home/Home';
 import Services from './Components/View/Services/Services';
-
+import Footer1 from './Components/View/under';
 const AppRoutes = () => {
     return (
         <div>
@@ -20,23 +20,14 @@ const AppRoutes = () => {
             <Header></Header>
             <Routes>
                 <Route path='/' element={<Home/>}/>
+                <Route path='/about' element={<About/>}/>
+                <Route path='/contact' element={<Contact/>}/>
+                <Route path='/services' element={<Services/>}/>
+                <Route path='/blog' element={<Blog/>}/>
+                <Route path='/blogDetails' element={<BlogDetails/>}/>
+                <Route path='/footer1' element={<Footer1/>}/>
             </Routes>
-            <Routes>
-                <Route path='about' element={<About/>}/>
-            </Routes>
-            <Routes>
-                <Route path='contact' element={<Contact/>}/>
-            </Routes>
-            <Routes>
-                <Route path='services' element={<Services/>}/>
-            </Routes>
-            <Routes>
-                <Route path='blog' element={<Blog/>}/>
-            </Routes>
-            <Routes>
-                <Route path='blogDetails' element={<BlogDetails/>}/>
-            </Routes>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
             </BrowserRouter>
         </div>
     );
