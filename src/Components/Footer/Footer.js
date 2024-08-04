@@ -1,12 +1,17 @@
 import React from 'react';
+import logo from '../../Assets/Images/logo.png';
 import '../../CSS/Footer.css';
+
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-logo">
-                    <img src="/path-to-your-logo.png" alt="Company Logo" />
+                <img className='custom-brand d-inline-block align-top'
+        alt=""
+        src={logo}
+        />
                 </div>
                 <div className="footer-links">
                     <h3>Quick Links</h3>

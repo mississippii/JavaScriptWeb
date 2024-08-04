@@ -147,21 +147,6 @@ const About = () => {
 
   return (
     <div className="">
-      {/* <h1 className="text-white py-5 text-center strategy-service-style about-header-style">
-        About
-      </h1> */}
-
-      {/* Breadcrumb Part */}
-      {/* <div className="text-center pb-5 mb-5">
-        <Link to="/" className="text-decoration-none">
-          <span className="text-white h6 px-1">Home</span>
-        </Link>
-        <span className="text-white h6 px-1">/</span>
-        <span className="text-danger h6 px-1">About</span>
-      </div> */}
-
-      {/* about description */}
-
       <div className="bg-white pt-5">
         <div className="container row mx-auto py-5 ">
           <div className="col-lg-5 col-md-12 col-sm-12 col-12">
@@ -193,14 +178,6 @@ const About = () => {
                   but the majority have suffered.
                 </p>
               </div>
-
-              {/* <div className="col">
-                <h3 className="pb-3">Who we are</h3>
-                <p className="about-page-p text-secondary">
-                  There are many vtions of passages of Lorem Ipsum available,
-                  but the majority have suffered.
-                </p>
-              </div> */}
             </div>
           </div>
         </div>
