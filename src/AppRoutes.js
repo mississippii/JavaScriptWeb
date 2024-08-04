@@ -7,7 +7,7 @@ import {
 import Header from './Components/Header/Header';
 import About from './Components/View/About/About';
 import Blog from './Components/View/Blog/Blog';
-import Career from './Components/View/BlogDetails/BlogDetails';
+import Career from './Components/View/Career/Career';
 import Contact from './Components/View/Contact/Contact';
 import Home from './Components/View/Home/Home';
 import Services from './Components/View/Services/Services';
@@ -24,7 +24,6 @@ const AppRoutes = () => {
                 <Route path='/services' element={<Services />} />
                 <Route path='/blog' element={<Blog />} />
                 <Route path='/career' element={<Career />} />
-                {/* <Route path='/footer1' element={<Footer1 />} /> */}
             </Routes>
             <Footer />
         </BrowserRouter>

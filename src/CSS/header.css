@@ -19,3 +19,7 @@
     color: red !important;
     font-weight: bold;
 }
+.active-link {
+    font-weight: bold;
+    color: #ffcc00; /* Example color for the active link */
+}

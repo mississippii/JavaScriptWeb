@@ -23,7 +23,7 @@ const Header = () => {
             <Nav.Link as={Link} className="text-white hover2" to='/services'>Service</Nav.Link>
             <Nav.Link as={Link} className="text-white hover3" to='/about'>About</Nav.Link>
             <Nav.Link as={Link} className="text-white hover4" to='/blog'>Blog</Nav.Link>
-            <Nav.Link as={Link} className="text-white hover5" to='/blogDetails'>Careers</Nav.Link>
+            <Nav.Link as={Link} className="text-white hover5" to='/career'>Careers</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
           <Nav.Link as={Link} to='/contact'>
